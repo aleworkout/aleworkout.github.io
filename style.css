@@ -1,5 +1,5 @@
 .modal {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -190,4 +190,24 @@ ul ul li img {
 
 h1 {
     text-align: center;
+}
+
+/* */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explicacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7df8f;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+    /* ou a distância desejada em relação ao menu */
 }
