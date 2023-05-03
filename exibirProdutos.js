@@ -1,7 +1,10 @@
 const produtos = [
     { nome: "Produto A", preco: 10.0, categoria: "Categoria 1", nomeImagem: "s.jpg" },
-    { nome: "Produto B", preco: 20.0, categoria: "Categoria 2", nomeImagem: "s.jpg" },
-    { nome: "Produto C", preco: 30.0, categoria: "Categoria 1", nomeImagem: "s.jpg" },
+    { nome: "Produto B", preco: 10.0, categoria: "Categoria 1", nomeImagem: "s.jpg" },
+    { nome: "Produto C", preco: 10.0, categoria: "Categoria 1", nomeImagem: "s.jpg" },
+    { nome: "Produto D", preco: 10.0, categoria: "Categoria 2", nomeImagem: "s.jpg" },
+    { nome: "Produto E", preco: 20.0, categoria: "Categoria 2", nomeImagem: "s.jpg" },
+    { nome: "Produto F", preco: 30.0, categoria: "Categoria 3", nomeImagem: "s.jpg" },
 ];
 
 const produtosPorCategoria = {};
@@ -49,17 +52,20 @@ for (let categoria in produtosPorCategoria) {
 
     produtosPorCategoria[categoria].forEach(produto => {
         const item = document.createElement("li");
+        item.classList.add("produto");
 
         // Adiciona o input de quantidade para cada produto
         const inputQuantidade = document.createElement("input");
         inputQuantidade.type = "number";
         inputQuantidade.min = "0";
         inputQuantidade.value = "0";
+        inputQuantidade.classList.add("preco");
         inputQuantidade.id = `${produto.nome}-quantidade`;
         item.appendChild(inputQuantidade);
 
         const spanNome = document.createElement("span");
         spanNome.innerText = produto.nome;
+        spanNome.classList.add("nome");
         item.appendChild(spanNome);
 
         // Adiciona a imagem do produto
@@ -69,6 +75,7 @@ for (let categoria in produtosPorCategoria) {
 
         const spanPreco = document.createElement("span");
         spanPreco.innerText = `R$ ${produto.preco.toFixed(2)}`;
+        spanPreco.classList.add("preco");
         spanPreco.id = `${produto.nome}-preco`;
         item.appendChild(spanPreco);
 
