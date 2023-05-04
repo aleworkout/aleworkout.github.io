@@ -1,10 +1,17 @@
 const produtos = [
     { nome: "Bananinha space", preco: 8.99, categoria: "Petiscos", nomeImagem: "Bananinha space.png" },
     { nome: "Serenata de amor", preco: 2.0, categoria: "Petiscos", nomeImagem: "Serenata de amor.png" },
-    { nome: "Produto C", preco: 10.0, categoria: "Categoria 1", nomeImagem: "s.jpg" },
-    { nome: "Produto D", preco: 10.0, categoria: "Categoria 2", nomeImagem: "s.jpg" },
-    { nome: "Produto E", preco: 20.0, categoria: "Categoria 2", nomeImagem: "s.jpg" },
-    { nome: "Produto F", preco: 30.0, categoria: "Categoria 3", nomeImagem: "s.jpg" },
+    { nome: "Caixa chocolate garoto 16uni", preco: 14.9, categoria: "Petiscos", nomeImagem: "Caixa chocolate garoto (16u).png" },
+    { nome: "Barra choc garoto 80g", preco: 9.48, categoria: "Petiscos", nomeImagem: "Barra choc garoto 80g.png" },
+    { nome: "Mittos queijo 35g", preco: 3.99, categoria: "Petiscos", nomeImagem: "Mittos queijo 35g" + ".png" },
+    { nome: "Paçoca rolha tubitos 1uni", preco: 1.99, categoria: "Petiscos", nomeImagem: "Paçoca rolha tubitos 1uni" + ".png" },
+    { nome: "Leite liq integral piracanjuba 1L", preco: 11.99, categoria: "O básico", nomeImagem: "Leite liq integral piracanjuba 1L" + ".png" },
+    { nome: "Café 3 corações 250g", preco: 14.49, categoria: "O básico", nomeImagem: "Café 3 corações 250g" + ".png" },
+    { nome: "Doce de leite aurea 250g", preco: 4.49, categoria: "O básico", nomeImagem: "Doce de leite aurea 250g" + ".png" },
+    { nome: "Goiabada palmeiron 250g", preco: 4.49, categoria: "O básico", nomeImagem: "Goiabada palmeiron 250g" + ".png" },
+    { nome: "Papel higiênico floral 12uni", preco: 11.99, categoria: "Untensilios pro lar", nomeImagem: "Papel higiênico floral 12uni" + ".png" },
+    { nome: "Refrigerante Pet 2 Litros - Coca-Cola", preco: 9.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Refrigerante Pet 2 Litros - Coca-Cola" + ".png" },
+
 ];
 
 const produtosPorCategoria = {};
