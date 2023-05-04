@@ -1,6 +1,6 @@
 const produtos = [
-    { nome: "Produto A", preco: 10.0, categoria: "Categoria 1", nomeImagem: "s.jpg" },
-    { nome: "Produto B", preco: 10.0, categoria: "Categoria 1", nomeImagem: "s.jpg" },
+    { nome: "Bananinha space", preco: 8.99, categoria: "Petiscos", nomeImagem: "Bananinha space.png" },
+    { nome: "Serenata de amor", preco: 2.0, categoria: "Petiscos", nomeImagem: "Serenata de amor.png" },
     { nome: "Produto C", preco: 10.0, categoria: "Categoria 1", nomeImagem: "s.jpg" },
     { nome: "Produto D", preco: 10.0, categoria: "Categoria 2", nomeImagem: "s.jpg" },
     { nome: "Produto E", preco: 20.0, categoria: "Categoria 2", nomeImagem: "s.jpg" },
