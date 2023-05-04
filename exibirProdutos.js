@@ -11,6 +11,11 @@ const produtos = [
     { nome: "Goiabada palmeiron 250g", preco: 4.49, categoria: "O básico", nomeImagem: "Goiabada palmeiron 250g" + ".png" },
     { nome: "Papel higiênico floral 12uni", preco: 11.99, categoria: "Untensilios pro lar", nomeImagem: "Papel higiênico floral 12uni" + ".png" },
     { nome: "Refrigerante Pet 2 Litros - Coca-Cola", preco: 9.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Refrigerante Pet 2 Litros - Coca-Cola" + ".png" },
+    { nome: "Refrigerante Guaraná pet 1,5 Litros - Tuchaua", preco: 9.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Refrigerante Guaraná pet 1,5 Litros - Tuchaua" + ".png" },
+    { nome: "Cerveja Puro Malte lata 269ml - Império", preco: 4.90, categoria: "Bebidas e refrigerantes", nomeImagem: "Cerveja Puro Malte lata 269ml - Império" + ".png" },
+    { nome: "Bebida Láctea sabor Chocolate 180ml - Nescau", preco: 2.90, categoria: "Bebidas e refrigerantes", nomeImagem: "Bebida Láctea sabor Chocolate 180ml - Nescau" + ".png" },
+    { nome: "Energético Sugar Free lata 250ml - Red Bull", preco: 12.89, categoria: "Bebidas e refrigerantes", nomeImagem: "Energético Sugar Free lata 250ml - Red Bull" + ".png" },
+    { nome: "Biscoito Wafer sabor Chocolate pacote 78g - Bauducco", preco: 2.99, categoria: "Petiscos", nomeImagem: "Biscoito Wafer sabor Chocolate pacote 78g - Bauducco" + ".png" },
 
 ];
 
