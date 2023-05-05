@@ -26,14 +26,20 @@ const enviarMensagem = () => {
     const totalValue = parseFloat(total.match(/[\d\.]+/)[0])
     console.log("total" + totalValue);
 
-    // Adiciona o total à mensagem
-    mensagem += `=> Total: R$${totalValue.toFixed(2)}\n`;
-
     // Adiciona os dados do cliente à mensagem
-    mensagem += `=> Cobrar de ${nomeCliente} no Bloco ${bloco} Apto ${apartamento}\n`;
+    mensagem += `\n=> Cobrar de ${nomeCliente} no Bloco ${bloco} Apto ${apartamento}\n`;
 
     // Adiciona o tempo de entrega à mensagem
-    mensagem += `=> Entregar em ${tempoEntrega}`;
+    mensagem += `=> Entregar em ${tempoEntrega} minutos\n\n`;
+
+    // Adiciona o total à mensagem
+    mensagem += `*=> Total: R$${totalValue.toFixed(2)}*\n\n`;
+
+    // Adiciona PIX
+    mensagem += `Pix: 706.531.372-73\n`;
+
+    // Adiciona beneficiario PIX
+    mensagem += `Alejandro González Navarro`;
 
     // Monta o link para o WhatsApp
     const link = `https://api.whatsapp.com/send?phone=5592982434994&text=${encodeURIComponent(mensagem)}`;

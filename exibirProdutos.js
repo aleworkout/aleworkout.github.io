@@ -18,7 +18,30 @@ const produtos = [
     { nome: "Biscoito Wafer sabor Chocolate pacote 78g - Bauducco", preco: 2.99, categoria: "Petiscos", nomeImagem: "Biscoito Wafer sabor Chocolate pacote 78g - Bauducco" + ".png" },
     { nome: "Ype detergente liquido limão 500ml", preco: 3.99, categoria: "Untensilios pro lar", nomeImagem: "Ype detergente liquido limão 500ml" + ".png" },
     { nome: "Ype desinfetante bak floral 500ml", preco: 4.99, categoria: "Untensilios pro lar", nomeImagem: "Ype desinfetante bak floral 500ml" + ".png" },
-
+    { nome: "Catchup tambau 190g", preco: 3.84, categoria: "Molhos", nomeImagem: "Catchup tambau 190g" + ".png" },
+    { nome: "Maionese tradicional liza 196g", preco: 3.89, categoria: "Molhos", nomeImagem: "Maionese tradicional liza 196g" + ".png" },
+    { nome: "Baré guraná 2L", preco: 10.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Baré guraná 2L" + ".png" },
+    { nome: "Oleo de soja marca soya 900ml", preco: 13.89, categoria: "O básico", nomeImagem: "Oleo de soja marca soya 900ml" + ".png" },
+    { nome: "Água mineral sem gás 350ml", preco: 1.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Água mineral sem gás 350ml" + ".png" },
+    { nome: "Seleta legumes quero 170g", preco: 4.49, categoria: "O básico", nomeImagem: "Seleta legumes quero 170g" + ".png" },
+    { nome: "Milho verde quero 170g", preco: 5.19, categoria: "O básico", nomeImagem: "Milho verde quero 170g" + ".png" },
+    { nome: "Rap10 massa pronta 297g", preco: 10.63, categoria: "Para matar a fome", nomeImagem: "Rap10 massa pronta 297g" + ".png" },
+    { nome: "Doritos 84g", preco: 9.49, categoria: "Petiscos", nomeImagem: "Doritos 84g" + ".png" },
+    { nome: "Batata Ruffle original 76g", preco: 10.29, categoria: "Petiscos", nomeImagem: "Batata Ruffle original 76g" + ".png" },
+    { nome: "Fandangos sabor queijo 140g", preco: 14.89, categoria: "Petiscos", nomeImagem: "Fandangos sabor queijo 140g" + ".png" },
+    { nome: "Cheetos 125g", preco: 14.89, categoria: "Petiscos", nomeImagem: "Cheetos 125g" + ".png" },
+    { nome: "Amendoim yoki descascado 150g", preco: 5.89, categoria: "Petiscos", nomeImagem: "Amendoim yoki descascado 150g" + ".png" },
+    { nome: "Pão forma pullman 400g", preco: 13.43, categoria: "Para matar a fome", nomeImagem: "Pão forma pullman 400g" + ".png" },
+    { nome: "Macarrão sem glutem Urbano", preco: 7.89, categoria: "O básico", nomeImagem: "Macarrão sem glutem Urbano" + ".png" },
+    { nome: "Macarrão dona benta ovo", preco: 6.95, categoria: "O básico", nomeImagem: "Macarrão dona benta ovo" + ".png" },
+    { nome: "Ração caẽs filhotes todos os tamanhos 100g", preco: 3.29, categoria: "Para os nossos pets", nomeImagem: "Ração caẽs filhotes todos os tamanhos 100g" + ".png" },
+    { nome: "Ração gatos 1 ano em diante whiskas 85g", preco: 3.29, categoria: "Para os nossos pets", nomeImagem: "Ração gatos 1 ano em diante whiskas 85g" + ".png" },
+    { nome: "Energético 250ml - Red Bull", preco: 14.9, categoria: "Bebidas e refrigerantes", nomeImagem: "Energético 250ml - Red Bull" + ".png" },
+    { nome: "Skarloff Ice lata 269ml", preco: 7.49, categoria: "Bebidas e refrigerantes", nomeImagem: "Skarloff Ice lata 269ml" + ".png" },
+    { nome: "Molho tomate quero 300g", preco: 3.67, categoria: "O básico", nomeImagem: "Molho tomate quero 300g" + ".png" },
+    { nome: "Absorvente always P 10 absorventes", preco: 5.99, categoria: "Feminino", nomeImagem: "Absorvente always P 10 absorventes" + ".png" },
+    { nome: "Papel higiênico floral 4uni", preco: 5.49, categoria: "Untensilios pro lar", nomeImagem: "Papel higiênico floral 4uni" + ".png" },
+    { nome: "Água de coco sococo 200ml", preco: 3.49, categoria: "Bebidas e refrigerantes", nomeImagem: "Água de coco sococo 200ml" + ".png" },
 ];
 
 const produtosPorCategoria = {};
@@ -47,7 +70,7 @@ function calcularTotal() {
             spanSubtotal.innerText = "Subtotal: R$ 0.00"
 
             let quantidade = parseInt(inputQuantidade.value);
-            let preco = parseFloat(spanPreco.innerText.replace("R$ ", ""));
+            let preco = parseFloat(spanPreco.innerText.replace("Preço: R$ ", ""));
             let subtotal = quantidade * preco;
 
             total += subtotal;
@@ -88,7 +111,7 @@ for (let categoria in produtosPorCategoria) {
         item.appendChild(imgProduto);
 
         const spanPreco = document.createElement("span");
-        spanPreco.innerText = `R$ ${produto.preco.toFixed(2)}`;
+        spanPreco.innerText = `Preço: R$ ${produto.preco.toFixed(2)}`;
         spanPreco.classList.add("preco");
         spanPreco.id = `${produto.nome}-preco`;
         item.appendChild(spanPreco);
