@@ -46,6 +46,17 @@ const produtos = [
     { nome: "Queijo prato duleit 150g", preco: 11.29, categoria: "Padaria", nomeImagem: "Queijo prato duleit 150g" + ".png" },
     { nome: "Salame Sadia Italiano 100g", preco: 17.59, categoria: "Padaria", nomeImagem: "Salame Sadia Italiano 100g" + ".png" },
     { nome: "Achocolatado em Pó 3 Corações 300g", preco: 6.59, categoria: "Padaria", nomeImagem: "Achocolatado em Pó 3 Corações 300g" + ".png" },
+    { nome: "Margarina Deline com sal 500g", preco: 10.99, categoria: "Padaria", nomeImagem: "Margarina Deline com sal 500g" + ".png" },
+    { nome: "Manteiga Cabeça de Touro 200g", preco: 19.50, categoria: "Padaria", nomeImagem: "Manteiga Cabeça de Touro 200g" + ".png" },
+    { nome: "Massa de Pastel Faela 350g", preco: 8.79, categoria: "Padaria", nomeImagem: "Massa de Pastel Faela 350g" + ".png" },
+    { nome: "Leite Condesado Moça Integral Lata 395g", preco: 13.95, categoria: "Doces e sobremesas", nomeImagem: "Leite Condesado Moça Integral Lata 395g" + ".png" },
+    { nome: "Creme de Leite Nestle lata 300g", preco: 10.89, categoria: "O básico", nomeImagem: "Creme de Leite Nestle lata 300g" + ".png" },
+    { nome: "Batata Palha Elma Chips 60g", preco: 7.50, categoria: "Padaria", nomeImagem: "Batata Palha Elma Chips 60g" + ".png" },
+    { nome: "Milho de pipoca de microondas Yoki 100g", preco: 5.9, categoria: "Doces e sobremesas", nomeImagem: "Milho de pipoca de microondas Yoki 100g" + ".png" },
+    { nome: "Milho de pipoca Kicaldo 500g", preco: 5.0, categoria: "Doces e sobremesas", nomeImagem: "Milho de pipoca Kicaldo 500g" + ".png" },
+    { nome: "Sorvete Toya 2L Flocos", preco: 28.0, categoria: "Doces e sobremesas", nomeImagem: "Sorvete Toya 2L Flocos" + ".png" },
+    { nome: "Sorvete Toya 2L Napolitano", preco: 28.0, categoria: "Doces e sobremesas", nomeImagem: "Sorvete Toya 2L Napolitano" + ".png" },
+    { nome: "Sorvete Toya 2L Açai e Tapioca", preco: 28.0, categoria: "Doces e sobremesas", nomeImagem: "Sorvete Toya 2L Açai e Tapioca" + ".png" },
 ];
 
 const produtosPorCategoria = {};
