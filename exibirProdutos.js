@@ -25,13 +25,13 @@ const produtos = [
     { nome: "Água mineral sem gás 350ml", preco: 1.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Água mineral sem gás 350ml" + ".png" },
     { nome: "Seleta legumes quero 170g", preco: 4.49, categoria: "O básico", nomeImagem: "Seleta legumes quero 170g" + ".png" },
     { nome: "Milho verde quero 170g", preco: 5.19, categoria: "O básico", nomeImagem: "Milho verde quero 170g" + ".png" },
-    // { nome: "Rap10 massa pronta 297g", preco: 10.63, categoria: "Para matar a fome", nomeImagem: "Rap10 massa pronta 297g" + ".png" },
+    { nome: "Rap10 massa pronta 297g", preco: 10.63, categoria: "Padaria", nomeImagem: "Rap10 massa pronta 297g" + ".png" },
     { nome: "Doritos 84g", preco: 9.49, categoria: "Petiscos", nomeImagem: "Doritos 84g" + ".png" },
     { nome: "Batata Ruffle original 76g", preco: 10.29, categoria: "Petiscos", nomeImagem: "Batata Ruffle original 76g" + ".png" },
     { nome: "Fandangos sabor queijo 140g", preco: 14.89, categoria: "Petiscos", nomeImagem: "Fandangos sabor queijo 140g" + ".png" },
     { nome: "Cheetos 125g", preco: 14.89, categoria: "Petiscos", nomeImagem: "Cheetos 125g" + ".png" },
     { nome: "Amendoim yoki descascado 150g", preco: 5.89, categoria: "Petiscos", nomeImagem: "Amendoim yoki descascado 150g" + ".png" },
-    { nome: "Pão forma pullman 400g", preco: 13.43, categoria: "Para matar a fome", nomeImagem: "Pão forma pullman 400g" + ".png" },
+    { nome: "Pão forma pullman 400g", preco: 13.43, categoria: "Padaria", nomeImagem: "Pão forma pullman 400g" + ".png" },
     { nome: "Macarrão sem glutem Urbano", preco: 7.89, categoria: "O básico", nomeImagem: "Macarrão sem glutem Urbano" + ".png" },
     { nome: "Macarrão dona benta ovo", preco: 6.95, categoria: "O básico", nomeImagem: "Macarrão dona benta ovo" + ".png" },
     { nome: "Ração caẽs filhotes todos os tamanhos 100g", preco: 3.29, categoria: "Para os nossos pets", nomeImagem: "Ração caẽs filhotes todos os tamanhos 100g" + ".png" },
@@ -42,6 +42,10 @@ const produtos = [
     { nome: "Absorvente always P 10 absorventes", preco: 5.99, categoria: "Feminino", nomeImagem: "Absorvente always P 10 absorventes" + ".png" },
     { nome: "Papel higiênico floral perfumado 4uni", preco: 5.49, categoria: "Untensilios pro lar", nomeImagem: "Papel higiênico floral perfumado 4uni" + ".png" },
     { nome: "Água de coco sococo 200ml", preco: 3.49, categoria: "Bebidas e refrigerantes", nomeImagem: "Água de coco sococo 200ml" + ".png" },
+    { nome: "6 ovos brancos", preco: 9.50, categoria: "O básico", nomeImagem: "6 ovos brancos" + ".png" },
+    { nome: "Queijo prato duleit 150g", preco: 11.29, categoria: "Padaria", nomeImagem: "Queijo prato duleit 150g" + ".png" },
+    { nome: "Salame Sadia Italiano 100g", preco: 17.59, categoria: "Padaria", nomeImagem: "Salame Sadia Italiano 100g" + ".png" },
+    { nome: "Achocolatado em Pó 3 Corações 300g", preco: 6.59, categoria: "Padaria", nomeImagem: "Achocolatado em Pó 3 Corações 300g" + ".png" },
 ];
 
 const produtosPorCategoria = {};
