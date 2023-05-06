@@ -57,6 +57,7 @@ const produtos = [
     { nome: "Sorvete Toya 2L Flocos", preco: 28.0, categoria: "Doces e sobremesas", nomeImagem: "Sorvete Toya 2L Flocos" + ".png" },
     { nome: "Sorvete Toya 2L Napolitano", preco: 28.0, categoria: "Doces e sobremesas", nomeImagem: "Sorvete Toya 2L Napolitano" + ".png" },
     { nome: "Sorvete Toya 2L Açai e Tapioca", preco: 28.0, categoria: "Doces e sobremesas", nomeImagem: "Sorvete Toya 2L Açai e Tapioca" + ".png" },
+    { nome: "Cachaça 51", preco: 15.39, categoria: "Bebidas e refrigerantes", nomeImagem: "Cachaça 51" + ".png" },
 ];
 
 const produtosPorCategoria = {};
