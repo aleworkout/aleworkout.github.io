@@ -40,7 +40,7 @@ const produtos = [
     { nome: "Skarloff Ice lata 269ml", preco: 7.49, categoria: "Bebidas e refrigerantes", nomeImagem: "Skarloff Ice lata 269ml" + ".png" },
     { nome: "Molho tomate quero 300g", preco: 3.67, categoria: "O básico", nomeImagem: "Molho tomate quero 300g" + ".png" },
     { nome: "Absorvente always P 10 absorventes", preco: 5.99, categoria: "Feminino", nomeImagem: "Absorvente always P 10 absorventes" + ".png" },
-    { nome: "Papel higiênico floral 4uni", preco: 5.49, categoria: "Untensilios pro lar", nomeImagem: "Papel higiênico floral 4uni" + ".png" },
+    { nome: "Papel higiênico floral perfumado 4uni", preco: 5.49, categoria: "Untensilios pro lar", nomeImagem: "Papel higiênico floral perfumado 4uni" + ".png" },
     { nome: "Água de coco sococo 200ml", preco: 3.49, categoria: "Bebidas e refrigerantes", nomeImagem: "Água de coco sococo 200ml" + ".png" },
 ];
 
