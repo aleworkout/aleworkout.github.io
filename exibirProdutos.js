@@ -25,7 +25,7 @@ const produtos = [
     { nome: "Água mineral sem gás 350ml", preco: 1.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Água mineral sem gás 350ml" + ".png" },
     { nome: "Seleta legumes quero 170g", preco: 4.49, categoria: "O básico", nomeImagem: "Seleta legumes quero 170g" + ".png" },
     { nome: "Milho verde quero 170g", preco: 5.19, categoria: "O básico", nomeImagem: "Milho verde quero 170g" + ".png" },
-    { nome: "Rap10 massa pronta 297g", preco: 10.63, categoria: "Para matar a fome", nomeImagem: "Rap10 massa pronta 297g" + ".png" },
+    // { nome: "Rap10 massa pronta 297g", preco: 10.63, categoria: "Para matar a fome", nomeImagem: "Rap10 massa pronta 297g" + ".png" },
     { nome: "Doritos 84g", preco: 9.49, categoria: "Petiscos", nomeImagem: "Doritos 84g" + ".png" },
     { nome: "Batata Ruffle original 76g", preco: 10.29, categoria: "Petiscos", nomeImagem: "Batata Ruffle original 76g" + ".png" },
     { nome: "Fandangos sabor queijo 140g", preco: 14.89, categoria: "Petiscos", nomeImagem: "Fandangos sabor queijo 140g" + ".png" },
