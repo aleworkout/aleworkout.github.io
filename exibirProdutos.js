@@ -3,7 +3,7 @@ const produtos = [
     { nome: "Serenata de amor", preco: 2.0, categoria: "Petiscos", nomeImagem: "Serenata de amor.png" },
     { nome: "Caixa chocolate garoto 16uni", preco: 14.9, categoria: "Petiscos", nomeImagem: "Caixa chocolate garoto (16u).png" },
     { nome: "Barra choc garoto 80g", preco: 9.48, categoria: "Petiscos", nomeImagem: "Barra choc garoto 80g.png" },
-    { nome: "Mittos queijo 35g", preco: 3.99, categoria: "Petiscos", nomeImagem: "Mittos queijo 35g" + ".png" },
+    { nome: "Mittos queijo 35g", preco: 2.49, categoria: "Petiscos", nomeImagem: "Mittos queijo 35g" + ".png" },
     { nome: "Paçoca rolha tubitos 1uni", preco: 1.99, categoria: "Petiscos", nomeImagem: "Paçoca rolha tubitos 1uni" + ".png" },
     { nome: "Leite liq integral piracanjuba 1L", preco: 11.99, categoria: "O básico", nomeImagem: "Leite liq integral piracanjuba 1L" + ".png" },
     { nome: "Café 3 corações 250g", preco: 14.49, categoria: "O básico", nomeImagem: "Café 3 corações 250g" + ".png" },
