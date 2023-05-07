@@ -53,7 +53,7 @@ const produtos = [
     { nome: "Creme de Leite Nestle lata 300g", preco: 10.89, categoria: "O básico", nomeImagem: "Creme de Leite Nestle lata 300g" + ".png" },
     { nome: "Batata Palha Elma Chips 60g", preco: 7.50, categoria: "Padaria", nomeImagem: "Batata Palha Elma Chips 60g" + ".png" },
     { nome: "Milho de pipoca de microondas Yoki 100g", preco: 5.9, categoria: "Doces e sobremesas", nomeImagem: "Milho de pipoca de microondas Yoki 100g" + ".png" },
-    { nome: "Milho de pipoca Kicaldo 500g", preco: 5.0, categoria: "Doces e sobremesas", nomeImagem: "Milho de pipoca Kicaldo 500g" + ".png" },
+    // { nome: "Milho de pipoca Kicaldo 500g", preco: 5.0, categoria: "Doces e sobremesas", nomeImagem: "Milho de pipoca Kicaldo 500g" + ".png" },
     { nome: "Sorvete Toya 2L Flocos", preco: 28.0, categoria: "Doces e sobremesas", nomeImagem: "Sorvete Toya 2L Flocos" + ".png" },
     { nome: "Sorvete Toya 2L Napolitano", preco: 28.0, categoria: "Doces e sobremesas", nomeImagem: "Sorvete Toya 2L Napolitano" + ".png" },
     { nome: "Sorvete Toya 2L Açai e Tapioca", preco: 28.0, categoria: "Doces e sobremesas", nomeImagem: "Sorvete Toya 2L Açai e Tapioca" + ".png" },
