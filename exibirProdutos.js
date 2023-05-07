@@ -62,7 +62,7 @@ const produtos = [
     { nome: "Lasanha sadia bolonhesa 600g", preco: 24.50, categoria: "Comidas Congeladas", nomeImagem: "Lasanha sadia bolonhesa 600g" + ".png" },
     { nome: "Pão de queijo maricota lanche 300g", preco: 12.50, categoria: "Comidas Congeladas", nomeImagem: "Pão de queijo maricota lanche 300g" + ".png" },
     { nome: "Fixa Forte Espuma Extreme 12mm X 2 Metros 3M Suporta até 2,5kg", preco: 25.43, categoria: "Utensilios pro lar", nomeImagem: "Fixa Forte Espuma Extreme 12mm X 2 Metros 3M Suporta até 2,5kg" + ".png" },
-    { nome: "Biscoito salgado Dux Salted 110g", preco: 6.60, categoria: "Petiscos", nomeImagem: "Biscoito salgado Dux Salted 110g" + ".png" },
+    // { nome: "Biscoito salgado Dux Salted 110g", preco: 6.60, categoria: "Petiscos", nomeImagem: "Biscoito salgado Dux Salted 110g" + ".png" },
     { nome: "Pilha AAA Panasonic Alcalina", preco: 16.89, categoria: "Utensilios pro lar", nomeImagem: "Pilha AAA Panasonic Alcalina" + ".png" },
 ];
 
