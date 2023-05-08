@@ -1,5 +1,5 @@
 const produtos = [
-    // { nome: "Bananinha space", preco: 8.99, categoria: "Petiscos", nomeImagem: "Bananinha space.png" },
+    { nome: "Bananinha space", preco: 8.99, categoria: "Petiscos", nomeImagem: "Bananinha space.png" },
     { nome: "Serenata de amor", preco: 2.0, categoria: "Petiscos", nomeImagem: "Serenata de amor.png" },
     { nome: "Caixa chocolate garoto 16uni", preco: 14.9, categoria: "Petiscos", nomeImagem: "Caixa chocolate garoto (16u).png" },
     { nome: "Barra choc garoto 80g", preco: 9.48, categoria: "Petiscos", nomeImagem: "Barra choc garoto 80g.png" },
