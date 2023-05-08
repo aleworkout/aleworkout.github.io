@@ -64,6 +64,9 @@ const produtos = [
     { nome: "Fixa Forte Espuma Extreme 12mm X 2 Metros 3M Suporta até 2,5kg", preco: 25.43, categoria: "Utensilios pro lar", nomeImagem: "Fixa Forte Espuma Extreme 12mm X 2 Metros 3M Suporta até 2,5kg" + ".png" },
     // { nome: "Biscoito salgado Dux Salted 110g", preco: 6.60, categoria: "Petiscos", nomeImagem: "Biscoito salgado Dux Salted 110g" + ".png" },
     { nome: "Pilha AAA Panasonic Alcalina", preco: 16.89, categoria: "Utensilios pro lar", nomeImagem: "Pilha AAA Panasonic Alcalina" + ".png" },
+    { nome: "BIS ao leite 126g", preco: 8.49, categoria: "Petiscos", nomeImagem: "BIS ao leite 126g" + ".png" },
+    { nome: "Oreo 90g (8 biscoitos)", preco: 4.89, categoria: "Petiscos", nomeImagem: "Oreo 90g (8 biscoitos)" + ".png" },
+
 ];
 
 const produtosPorCategoria = {};
