@@ -20,7 +20,7 @@ const produtos = [
     { nome: "Ype desinfetante bak floral 500ml", preco: 4.99, categoria: "Utensilios pro lar", nomeImagem: "Ype desinfetante bak floral 500ml" + ".png" },
     { nome: "Catchup tambau 190g", preco: 3.84, categoria: "Molhos", nomeImagem: "Catchup tambau 190g" + ".png" },
     { nome: "Maionese tradicional liza 196g", preco: 3.89, categoria: "Molhos", nomeImagem: "Maionese tradicional liza 196g" + ".png" },
-    { nome: "Baré guraná 2L", preco: 9.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Baré guraná 2L" + ".png" },
+    // { nome: "Baré guaraná 2L", preco: 9.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Baré guraná 2L" + ".png" },
     { nome: "Oleo de soja marca soya 900ml", preco: 13.89, categoria: "O básico", nomeImagem: "Oleo de soja marca soya 900ml" + ".png" },
     { nome: "Água mineral sem gás 350ml", preco: 1.99, categoria: "Bebidas e refrigerantes", nomeImagem: "Água mineral sem gás 350ml" + ".png" },
     { nome: "Seleta legumes quero 170g", preco: 4.49, categoria: "O básico", nomeImagem: "Seleta legumes quero 170g" + ".png" },
