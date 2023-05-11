@@ -41,7 +41,7 @@ const produtos = [
     { nome: "Absorvente always P 10 absorventes", preco: 5.99, categoria: "Feminino", nomeImagem: "Absorvente always P 10 absorventes" + ".png" },
     { nome: "Papel higiênico floral perfumado 4uni", preco: 5.49, categoria: "Utensilios pro lar", nomeImagem: "Papel higiênico floral perfumado 4uni" + ".png" },
     { nome: "6 ovos brancos", preco: 9.50, categoria: "O básico", nomeImagem: "6 ovos brancos" + ".png" },
-    { nome: "Queijo prato duleit 150g", preco: 11.29, categoria: "Padaria", nomeImagem: "Queijo prato duleit 150g" + ".png" },
+    // { nome: "Queijo prato duleit 150g", preco: 11.29, categoria: "Padaria", nomeImagem: "Queijo prato duleit 150g" + ".png" },
     { nome: "Salame Sadia Italiano 100g", preco: 17.59, categoria: "Padaria", nomeImagem: "Salame Sadia Italiano 100g" + ".png" },
     { nome: "Achocolatado em Pó 3 Corações 300g", preco: 6.59, categoria: "Padaria", nomeImagem: "Achocolatado em Pó 3 Corações 300g" + ".png" },
     { nome: "Margarina Deline com sal 500g", preco: 10.99, categoria: "Padaria", nomeImagem: "Margarina Deline com sal 500g" + ".png" },
