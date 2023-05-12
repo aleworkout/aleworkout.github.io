@@ -66,7 +66,7 @@ const produtos = [
     { nome: "Leite em pó ninho sachê 175g", preco: 11.25, categoria: "O básico", nomeImagem: "Leite em pó ninho sachê 175g" + ".png" },
     { nome: "Achocolatado em pó italac sachê 200g", preco: 7.35, categoria: "O básico", nomeImagem: "Achocolatado em pó italac sachê 200g" + ".png" },
     { nome: "Aveia Quaker flocos finos 165g", preco: 6.59, categoria: "Padaria", nomeImagem: "Aveia Quaker flocos finos 165g" + ".png" },
-    { nome: "Farinha Jutica ovinha 1kg", preco: 17.20, categoria: "O básico", nomeImagem: "Farinha Jutica ovinha 1kg" + ".png" },
+    // { nome: "Farinha Jutica ovinha 1kg", preco: 17.20, categoria: "O básico", nomeImagem: "Farinha Jutica ovinha 1kg" + ".png" },
     { nome: "Azeite de oliva gallo 200ml", preco: 22.54, categoria: "O básico", nomeImagem: "Azeite de oliva gallo 200ml" + ".png" },
     { nome: "Salsicha hotdog perdigão 12 unidades", preco: 15.7, categoria: "Carnes, Frangos e Frios", nomeImagem: "Salsicha hotdog perdigão 12 unidades" + ".png" },
     { nome: "Bebida Láctea danone 1 potinho", preco: 2.20, categoria: "Lanchinhos", nomeImagem: "Bebida lactea danone 1 potinho" + ".png" },
