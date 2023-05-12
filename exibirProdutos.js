@@ -78,6 +78,8 @@ const produtos = [
     { nome: "Sardinhas palmeira óleo", preco: 6.00, categoria: "O básico", nomeImagem: "Sardinhas palmeira óleo" + ".png" },
     { nome: "Biscoito bauducco cookies 60g", preco: 4.50, categoria: "Lanchinhos", nomeImagem: "Biscoito bauducco cookies 60g" + ".png" },
     { nome: "Fini regaliz tubes", preco: 7.50, categoria: "Petiscos", nomeImagem: "Fini regaliz tubes" + ".png" },
+    { nome: "Colgate sensitive pro alivio inmediato", preco: 19.99, categoria: "Utensilios pro lar", nomeImagem: "Colgate sensitive pro alivio inmediato" + ".png" },
+    { nome: "Cup noodles yakissoba", preco: 8.50, categoria: "O básico", nomeImagem: "Cup noodles yakissoba" + ".png" },
 ];
 
 const produtosPorCategoria = {};
