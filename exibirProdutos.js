@@ -15,7 +15,7 @@ const produtos = [
     { nome: "Cerveja Puro Malte lata 269ml - Império", preco: 4.90, categoria: "Bebidas e refrigerantes", nomeImagem: "Cerveja Puro Malte lata 269ml - Império" + ".png" },
     { nome: "Energético Sugar Free lata 250ml - Red Bull", preco: 12.89, categoria: "Bebidas e refrigerantes", nomeImagem: "Energético Sugar Free lata 250ml - Red Bull" + ".png" },
     { nome: "Biscoito Wafer sabor Chocolate pacote 78g - Bauducco", preco: 2.99, categoria: "Petiscos", nomeImagem: "Biscoito Wafer sabor Chocolate pacote 78g - Bauducco" + ".png" },
-    { nome: "Ype detergente liquido limão 500ml", preco: 3.99, categoria: "Utensilios pro lar", nomeImagem: "Ype detergente liquido limão 500ml" + ".png" },
+    // { nome: "Ype detergente liquido limão 500ml", preco: 3.99, categoria: "Utensilios pro lar", nomeImagem: "Ype detergente liquido limão 500ml" + ".png" },
     { nome: "Ype desinfetante bak floral 500ml", preco: 4.99, categoria: "Utensilios pro lar", nomeImagem: "Ype desinfetante bak floral 500ml" + ".png" },
     { nome: "Catchup tambau 190g", preco: 3.84, categoria: "Molhos", nomeImagem: "Catchup tambau 190g" + ".png" },
     { nome: "Maionese tradicional liza 196g", preco: 3.89, categoria: "Molhos", nomeImagem: "Maionese tradicional liza 196g" + ".png" },
