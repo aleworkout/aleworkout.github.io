@@ -38,7 +38,7 @@ const produtos = [
     { nome: "Energético 250ml - Red Bull", preco: 14.9, categoria: "Bebidas e refrigerantes", nomeImagem: "Energético 250ml - Red Bull" + ".png" },
     { nome: "Skarloff Ice lata 269ml", preco: 7.49, categoria: "Bebidas e refrigerantes", nomeImagem: "Skarloff Ice lata 269ml" + ".png" },
     { nome: "Molho tomate quero 300g", preco: 3.67, categoria: "O básico", nomeImagem: "Molho tomate quero 300g" + ".png" },
-    { nome: "Absorvente always P 10 absorventes", preco: 5.99, categoria: "Feminino", nomeImagem: "Absorvente always P 10 absorventes" + ".png" },
+    // { nome: "Absorvente always P 10 absorventes", preco: 5.99, categoria: "Feminino", nomeImagem: "Absorvente always P 10 absorventes" + ".png" },
     { nome: "Papel higiênico floral perfumado 4uni", preco: 5.49, categoria: "Utensilios pro lar", nomeImagem: "Papel higiênico floral perfumado 4uni" + ".png" },
     { nome: "Cartela com 6 ovos brancos", preco: 9.50, categoria: "O básico", nomeImagem: "6 ovos brancos" + ".png" },
     // { nome: "Queijo prato duleit 150g", preco: 11.29, categoria: "Padaria", nomeImagem: "Queijo prato duleit 150g" + ".png" },
