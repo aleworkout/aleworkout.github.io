@@ -32,7 +32,7 @@ const produtos = [
     { nome: "Amendoim yoki descascado 150g", preco: 5.89, categoria: "Petiscos", nomeImagem: "Amendoim yoki descascado 150g" + ".png" },
     { nome: "Pão forma pullman 400g", preco: 13.43, categoria: "Padaria", nomeImagem: "Pão forma pullman 400g" + ".png" },
     { nome: "Macarrão sem glutem Urbano", preco: 7.89, categoria: "O básico", nomeImagem: "Macarrão sem glutem Urbano" + ".png" },
-    { nome: "Macarrão dona benta ovo", preco: 6.95, categoria: "O básico", nomeImagem: "Macarrão dona benta ovo" + ".png" },
+    // { nome: "Macarrão dona benta ovo", preco: 6.95, categoria: "O básico", nomeImagem: "Macarrão dona benta ovo" + ".png" },
     // { nome: "Ração caẽs filhotes todos os tamanhos 100g", preco: 3.29, categoria: "Para os nossos pets", nomeImagem: "Ração caẽs filhotes todos os tamanhos 100g" + ".png" },
     { nome: "Ração gatos 1 ano em diante whiskas 85g", preco: 3.29, categoria: "Para os nossos pets", nomeImagem: "Ração gatos 1 ano em diante whiskas 85g" + ".png" },
     { nome: "Energético 250ml - Red Bull", preco: 14.9, categoria: "Bebidas e refrigerantes", nomeImagem: "Energético 250ml - Red Bull" + ".png" },
