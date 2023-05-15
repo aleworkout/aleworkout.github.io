@@ -8,11 +8,10 @@ const enviarMensagem = () => {
     const tempoEntrega = document.getElementById("tempo").value;
 
     // Monta a mensagem com a lista de produtos
-    let mensagem = "=> Aqui está o meu pedido:\n";
+    let mensagem = "=> Aqui está o meu pedido:\n\n";
     produtos.forEach(produto => {
         const inputQuantidade = document.getElementById(`${produto.nome}-quantidade`);
         const quantidade = parseFloat(inputQuantidade.value);
-        const spanSubtotal = document.getElementById(`${produto.nome}-subtotal`);
         const subtotal = quantidade * produto.preco;
         if (quantidade > 0) {
             mensagem += `${quantidade} ${produto.nome} // R$${subtotal.toFixed(2)}\n`;
