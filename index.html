@@ -10,45 +10,21 @@
 </head>
 
 <body>
-    <header>
-        <h1>Conveniência no Ville</h1>
-        <div class="explicacao">
-            <p>Boas vindas! Encontre seus produtos, digite a quantidade e vá em Fechar pedido.</p>
-        </div>
-    </header>
     <main>
-        <ul id="lista-produtos"></ul>
-        <div id="total-wrapper">
-            <span id="total"></span>
-            <button id="fecharPedido">Fechar Pedido</button>
-        </div>
-        <div id="modal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <form>
-                    <label for="nome">Nome de quem paga:</label>
-                    <input type="text" id="nome" name="nome" required>
-                    <label for="bloco">Bloco:</label>
-                    <input type="text" id="bloco" name="bloco" required>
-                    <label for="apartamento">Apartamento:</label>
-                    <input type="text" id="apartamento" name="apartamento" required>
-                    <label for="tempo">Tempo de Entrega:</label>
-                    <select id="tempo" name="tempo">
-                        <option value="10">10 minutos</option>
-                        <option value="30">30 minutos</option>
-                        <option value="60">1 hora</option>
-                    </select>
-                    <button type="button" id="enviarFormulario">Enviar Mensagem com o Pedido</button>
-                </form>
+        <div class="container">
+            <div class="logo">
+                <img src="marca/logo.jpeg" alt="Logo da empresa">
+            </div>
+            <div class="message">
+                <p>Seja bem-vindo(a)!</p>
+                <p>Aproveite nossos produtos na <b>nova versão do aplicativo.</b></p>
+            </div>
+            <div class="button">
+                <a href="https://conveniencia-ville-municipal.netlify.app/">Entrar na nova versão</a>
             </div>
         </div>
+
     </main>
-    <!-- <footer>
-        <p>Pagamento via PIX: 706.531.372-73</p>
-    </footer> -->
-    <script src="exibirProdutos.js"></script>
-    <script src="modal.js"></script>
-    <script src="enviarMensagem.js"></script>
 </body>
 
 </html>
